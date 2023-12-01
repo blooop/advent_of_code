@@ -1,5 +1,5 @@
 {
-	"name": "python_template",
+	"name": "advent_of_code",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."
