@@ -52,7 +52,7 @@ def solve1(file):
 
 def solve2(file):
     result = 0
-    for i, line in enumerate(readstrings(file)):
+    for line in readstrings(file):
         games = Cubeset.from_line(line)
         games_mat = np.vstack([g.as_vec() for g in games])
         min_vals = np.max(games_mat, 0)
