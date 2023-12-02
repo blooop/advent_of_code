@@ -1,7 +1,6 @@
 from advent_of_code.utils.io import readstrings
 
 
-
 d_str = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 d_num = [str(i) for i in range(1, 10)]
 
